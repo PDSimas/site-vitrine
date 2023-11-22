@@ -44,6 +44,7 @@ body {
 .nav-items li a {
   color: #fff;
   text-decoration: none;
+  display: block;
 }
 
 .nav-items li a:hover {
@@ -126,7 +127,7 @@ body {
   background: #ffffff;
 }
 
-.areas .name {
+.areas h2 {
   padding-top: 40px;
   padding-bottom: 90px;
   color: #000;
@@ -169,12 +170,14 @@ body {
   text-decoration: none;
   color: #000;
   font-size: 20px;
+  display: block;
 }
 
 .box2 > a {
   text-decoration: none;
   color: #000;
   font-size: 20px;
+  display: block;
 }
 
 /* Contato */
@@ -266,6 +269,10 @@ footer {
   margin-right: 10px;
 }
 
+.footer-pre a {
+  line-height: 40px;
+}
+
 .footer-divider {
   height: 100px;
   width: 2px;
@@ -288,6 +295,7 @@ footer p {
 footer a {
   color: #fff;
   text-decoration: none;
+  display: block;
 }
 
 footer a:hover {
