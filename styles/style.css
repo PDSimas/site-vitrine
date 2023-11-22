@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 * p {
@@ -66,11 +67,12 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
-  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 #banner img:first-child {
-  display: block;
+  opacity: 1;
 }
 
 .arrow {
