@@ -29,6 +29,7 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 23px;
+  margin-left: 40px;
 }
 
 .nav-items {
@@ -36,8 +37,12 @@ body {
   list-style-type: none;
 }
 
+.nav-items li:last-child {
+  margin-right: 60px;
+}
+
 .nav-items li {
-  margin-left: 100px;
+  margin-left: 70px;
   height: 5px;
   font-size: 23px;
 }
