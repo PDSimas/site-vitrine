@@ -1,6 +1,12 @@
+//// hamburger ////
+const hamburger = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav");
+
+hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 let images = document.querySelectorAll("#banner img");
 let currentImage = 0;
 
+//// banner /////
 function changeImage(direction) {
   images[currentImage].style.opacity = "0";
   currentImage += direction;
